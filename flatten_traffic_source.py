@@ -2,6 +2,7 @@ import csv
 from pathlib import Path
 import json
 
+
 def flatten_traffic_source(inputfile, outputfile, index):
     
     csvfilename = Path(inputfile)
@@ -34,15 +35,14 @@ def flatten_traffic_source(inputfile, outputfile, index):
     reader = csv.reader(csvfile)
     throwout = reader.__next__()
     for row in reader:
+        temp_dict = json.loads(row[index])
         flat_list_expansion=[]
         for key in keyset:
             if key in temp_dict: flat_list_expansion.append(temp_dict[key])
             else: flat_list_expansion.append("NA")
-        newrow = row[0:index-1]
+        newrow = row[0:index]
         newrow = newrow + flat_list_expansion
         newrow = newrow + row[index+1:]
         write.writerow(newrow)
     
     outputfile.close()
-
-

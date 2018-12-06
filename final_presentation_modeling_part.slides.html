@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-<title>Final_Presentation slides</title>
+<title>final_presentation_modeling_part slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -11905,114 +11905,6 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Predicting-E-Commerce-Revenue">Predicting E-Commerce Revenue<a class="anchor-link" href="#Predicting-E-Commerce-Revenue">&#182;</a></h1><h2 id="The-Best-Group">The Best Group<a class="anchor-link" href="#The-Best-Group">&#182;</a></h2><h3 id="Xi-Yang,-Yixin-Sun,-Ziyu-Fan,-Brian-Chivers">Xi Yang, Yixin Sun, Ziyu Fan, Brian Chivers<a class="anchor-link" href="#Xi-Yang,-Yixin-Sun,-Ziyu-Fan,-Brian-Chivers">&#182;</a></h3>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Given-session-level-data,-can-we-predict-a-user's-e-commerce-revenue?">Given session-level data, can we predict a user's e-commerce revenue?<a class="anchor-link" href="#Given-session-level-data,-can-we-predict-a-user's-e-commerce-revenue?">&#182;</a></h1><h3 id="Using-data-from-Google's-online-merchandise-store,-we-seek-to-accurately-predict-a-consumer's-spending">Using data from Google's online merchandise store, we seek to accurately predict a consumer's spending<a class="anchor-link" href="#Using-data-from-Google's-online-merchandise-store,-we-seek-to-accurately-predict-a-consumer's-spending">&#182;</a></h3>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Challenges">Challenges<a class="anchor-link" href="#Challenges">&#182;</a></h1>
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>1) Imbalanced Data</p>
-<p>98.7% of sessions did not make a transaction</p>
-<p>98.6% of users did not make a transaction</p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>2) Lack of continuous variables</p>
-<p>Most data in web traffic is catagorical (Device info, location, time, redirect info, etc)</p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>3) User-level data</p>
-<p>A business doesn't market it's products to web sessions.  How do we aggregate this data to a user-level?</p>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="EDA---Feature-Importance-and-Engineering">EDA - Feature Importance and Engineering<a class="anchor-link" href="#EDA---Feature-Importance-and-Engineering">&#182;</a></h1>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Page-Views">Page Views<a class="anchor-link" href="#Page-Views">&#182;</a></h1><p><img src="Final_Presentation_Images/pageviews.png"></p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Hits">Hits<a class="anchor-link" href="#Hits">&#182;</a></h1><p><img src="Final_Presentation_Images/hits.png"></p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Next-Session">Next Session<a class="anchor-link" href="#Next-Session">&#182;</a></h1><p><img src="Final_Presentation_Images/nextsession.png"></p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Location:-Americas">Location: Americas<a class="anchor-link" href="#Location:-Americas">&#182;</a></h1><p><img src="Final_Presentation_Images/america.png"></p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Source:-Googleplex">Source: Googleplex<a class="anchor-link" href="#Source:-Googleplex">&#182;</a></h1><p><img src="Final_Presentation_Images/googleplex.png"></p>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Modeling-Approach">Modeling Approach<a class="anchor-link" href="#Modeling-Approach">&#182;</a></h2><p>1) Regression Only Models</p>
 <p>2) Stacking Models</p>
 <p>3) Boosting Models</p>
@@ -12322,7 +12214,7 @@ Prediction: classfier prediction * regressor predicion</p>
 
 </div>
 </div>
-</div></div></section></section>
+</div>
 </div>
 </div>
 

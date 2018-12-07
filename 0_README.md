@@ -20,7 +20,7 @@ The data we have is in session-level. Should we use session-level data on our mo
 
 ## Customized stacking estimator
 The Best Stacking Estimator we created works like this:   
-![](./Final_Presentation_Images/FC for Estimator 1-4.png)
+![](./Final_Presentation_Images/FC_Estimator_best.png)
 
 # Summary
 * **Three Modeling Approach**

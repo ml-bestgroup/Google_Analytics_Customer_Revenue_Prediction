@@ -1,0 +1,34 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/xiyang/classes/ML/FinalProject/mlfinal
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=ee3aa02513bbe41689a25569ea2bdd56aeaddb2aef700230
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=ee3aa02513bbe41689a25569ea2bdd56aeaddb2aef700230
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook 3_EDA_Visualization_Trans.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: a6c245fa-5875-4fad-8a05-332e47c86670
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a6c245fa-5875-4fad-8a05-332e47c86670
+[NotebookApp | INFO] Saving file at /3_EDA_Visualization_Trans.ipynb
+[NotebookApp | WARNING] Notebook 3_EDA_Visualization_Trans.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /3_EDA_Visualization_Trans.ipynb
+[NotebookApp | WARNING] Notebook 3_EDA_Visualization_Trans.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /3_EDA_Visualization_Trans.ipynb
+[NotebookApp | WARNING] Notebook 3_EDA_Visualization_Trans.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /3_EDA_Visualization_Trans.ipynb
+[NotebookApp | INFO] Starting buffering for a6c245fa-5875-4fad-8a05-332e47c86670:d19083388e1440bc8155e37ff3a4abce
+[NotebookApp | INFO] Kernel started: 0a5b4a67-9b7e-421f-aa71-bd41e50b8d22
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 0a5b4a67-9b7e-421f-aa71-bd41e50b8d22
+[NotebookApp | INFO] Saving file at /2_EDA_Visualization_Flatten_Raw.ipynb
+[NotebookApp | INFO] Saving file at /2_EDA_Visualization_Flatten_Raw.ipynb
+[NotebookApp | INFO] Saving file at /2_EDA_Visualization_Flatten_Raw.ipynb
+[NotebookApp | INFO] Starting buffering for 0a5b4a67-9b7e-421f-aa71-bd41e50b8d22:dc85160239c44e0d8e0cc51bf964aac0
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 2 kernels
+[NotebookApp | INFO] Kernel shutdown: a6c245fa-5875-4fad-8a05-332e47c86670
+[NotebookApp | INFO] Kernel shutdown: 0a5b4a67-9b7e-421f-aa71-bd41e50b8d22
